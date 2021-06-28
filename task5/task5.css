@@ -1,0 +1,55 @@
+.btn {
+    background-color: lightblue;
+}
+
+.chat {
+    padding: 1rem;
+    border: .125rem solid skyblue;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.messageContent {
+    border: .125rem solid skyblue;
+}
+
+.output {
+    width: 100%;
+    height: 18rem;
+    border: .125rem solid skyblue;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow-y: scroll;
+}
+
+.output p {
+    max-width: 70%;
+    padding: .25rem;
+    overflow-wrap: break-word;
+    border: .125rem solid skyblue;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+
+#request {
+    align-self: flex-end;
+}
+
+#response {
+    align-self: flex-start;
+}
+
+#error {
+    color: red;
+}
